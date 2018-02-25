@@ -6,7 +6,7 @@ body, html {
 }
 body, h1, h2, h3 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 900;
+    font-weight: 900px;
 }
 .form-format {
     color: #cc33ff;
@@ -33,4 +33,14 @@ input {
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
+}
+.table-center {
+    text-align: left;
+    color: #cc33ff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+th {
+    font-size: 24px;
+    font-weight: 900px;
 }
