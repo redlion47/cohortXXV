@@ -8,6 +8,9 @@ body, h1, h2, h3 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 900px;
 }
+h1 {
+    color: #f8f8f8;
+}
 .form-format {
     color: #cc33ff;
     text-align: center;
@@ -22,11 +25,12 @@ input {
     max-width: 50%
 }
 .my-bg-img {
+    background-color: #c0b283       ;/*bfd8d2*/
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
-    background: url(../IMG/intro-bg.jpg) no-repeat center center;
+    /**/
+    /*background: url(../IMG/intro-bg.jpg) no-repeat center center;*/
     background-size: cover;
     height: 100%;
 }
@@ -45,5 +49,8 @@ th {
     font-weight: 900px;
 }
 p, h2 {
-    color: #dcb239;
+    color: #b82601;
+}
+body {
+    color: #cc33ff;
 }
