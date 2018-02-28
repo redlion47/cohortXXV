@@ -1,6 +1,9 @@
 # cohortXXV
-creation of a full stack application called WeConnect
-WeConnect is a platform that brrings businesses and individuals together to create awareness of the businesses and anable users to evaluate the businesses and write reviews about them
+Creation of a full stack application called WeConnect.
+
+WeConnect is a platform that brrings businesses and individuals together to create awareness of the businesses.
+
+It also enables users to evaluate the businesses and write reviews about them
 
 # The platform has the following features:
 	> Users can create an account and log in
