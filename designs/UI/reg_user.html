@@ -4,6 +4,9 @@
         <title>create account</title>
         <link rel="stylesheet" type="text/css" href="../static/CSS/style.css">
         <link rel="shortcut icon" href="../static/IMG/favicon.ico">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     </head>
     <body>
@@ -34,41 +37,42 @@
                 </div> -->
             </div>
 
-            
-            <div class="my-bg-img">
-                <h1>Hello! Welcome to WeConnect!</h1></br>
-                <div></div>
-                <form class="form-format" action="login.html">
-                    <div class="label-format">
-                        <div class="form-group">
-                            <label for="username">Username: </label>
-                            <input type="text" class="form-control" id="username">
+            <div class="my-bg-img ">
+                <div >
+                    <h1>Welcome to WeConnect!</h1></br>
+                    <form class="form-format justify-content-center" action="login.html">
+                        <div class="label-format ">
+                            <div class="form-group" >
+                                <label for="username" style="text-align:left;">Username: </label>
+                                <input style="text-align:right;" type="text" class="form-control" id="username">
+                            </div>
+                            <div class="form-group ">
+                                <label for="first_name">First Name: </label>
+                                <input type="text" class="form-control" id="first_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Last Name: </label>
+                                <input type="text" class="form-control" id="last_name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email: </label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password: </label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="form-group">
+                                <label for="cpwd">Confirm Password: </label>
+                                <input type="password" class="form-control" id="cpwd">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-outline-primary">Submit</button>
+                            </div>
                         </div>
-                        <div class="form-group ">
-                            <label for="first_name">First Name: </label>
-                            <input type="text" class="form-control" id="first_name">
-                        </div>
-                        <div class="form-group">
-                            <label for="last_name">Last Name: </label>
-                            <input type="text" class="form-control" id="last_name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email: </label>
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="pwd">Password: </label>
-                            <input type="password" class="form-control" id="pwd">
-                        </div>
-                        <div class="form-group">
-                            <label for="cpwd">Confirm Password: </label>
-                            <input type="password" class="form-control" id="cpwd">
-                        </div>
-                        <div>
-                            <button type="submit" class="btn btn-outline-primary">Submit</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                
             </div>
             <div>
                 <footer >
